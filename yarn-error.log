@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe E:\project\node_modules\yarn\bin\yarn.js add sass --dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NAT Service;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yusun\AppData\Local\Microsoft\WindowsApps;C:\Users\yusun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yusun\AppData\Local\afreeca;C:\Users\yusun\AppData\Roaming\npm;E:\project\node_modules\yarn\bin;E:\pjt;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\project\my-pjt-app\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "my-pjt-app",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@material-ui/core": "^4.12.3",
+      "bootstrap": "^5.1.3",
+      "bootstrap-icons": "^1.7.1",
+      "history": "^5.1.0",
+      "node-sass": "^6.0.1",
+      "react": "^17.0.0",
+      "react-bootstrap": "^2.0.2",
+      "react-bootstrap-icons": "^1.6.1",
+      "react-dom": "^17.0.0",
+      "react-router-dom": "^6.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.0",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
